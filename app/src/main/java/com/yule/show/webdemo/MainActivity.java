@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadWebsite() {
-        webView.loadUrl("");
+        webView.loadUrl("https://hero-wars.com/");
     }
 
     private class Browser_home extends WebViewClient {
