@@ -116,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @SuppressLint("ObsoleteSdkInt")
     protected void hideBottomUIMenu() {
         // 隱藏虛擬按鍵, 並且全屏
         if (Build.VERSION.SDK_INT > 11 && Build.VERSION.SDK_INT < 19) { // lower api
@@ -131,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadWebsite() {
-        webView.loadUrl("");
+        webView.loadUrl("https://hero-wars.com/");
     }
 
     private class Browser_home extends WebViewClient {
