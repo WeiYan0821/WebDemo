@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadWebsite() {
-        webView.loadUrl("https://hero-wars.com/");
+        webView.loadUrl("");
     }
 
     private class Browser_home extends WebViewClient {
